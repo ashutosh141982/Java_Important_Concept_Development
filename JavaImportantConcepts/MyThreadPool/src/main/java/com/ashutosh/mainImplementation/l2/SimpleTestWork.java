@@ -34,4 +34,14 @@ public class SimpleTestWork implements Work {
     public String getName() {
         return this.workName;
     }
+
+    @Override
+    public void setTimeAddedToWorkQueue(long x) {
+
+    }
+
+    @Override
+    public long getTimeAddedToWorkQueue() {
+        return 0l;
+    }
 }
